@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Student } from "../utils/types";
+import { useNavigate, useParams } from "react-router";
 
 const Div = styled.div`
   & > div {
